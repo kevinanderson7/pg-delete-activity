@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>SEAN Shoe Store</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <script src="vendors/jquery.js"></script>
     <script src="scripts/client.js"></script>
-</head>
-<body >
+  </head>
+  <body>
     <h1>JENS Shoe Store</h1>
 
     <div>
-        <div>
-            Name: <input type="text" id="name"><br>
-            Cost: <input type="number" id="cost"><br>
-            Size: <input type="number" id="size"><br>
-            <button id="submit">Submit</button>
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th><th>Cost</th><th>Size</th>
-                </tr>
-            </thead>
-            <tbody id="shoeDisplay">
-                
-            </tbody>
+      Name: <input type="text" id="name" /><br />
+      Cost: <input type="number" id="cost" /><br />
+      Size: <input type="number" id="size" /><br />
+      <button id="submit">Submit</button>
+
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Cost</th>
+              <th>Size</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="shoeDisplay"></tbody>
         </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>

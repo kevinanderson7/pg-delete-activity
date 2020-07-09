@@ -1,0 +1,25 @@
+input {
+  display: block;
+  margin-bottom: -18px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+body {
+  margin: 15px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+#submit {
+  margin-left: 200px;
+}
+button {
+  margin: 4px;
+}
